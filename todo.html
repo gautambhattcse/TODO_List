@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY TODO's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <header>
+     <nav>
+        <div class="left">   
+             <h1 >MY TODO's
+                   <img src="Todo-icon.png" alt="Todo-icon" style="height: 35px;">
+             </h1>
+        </div>
+        <div class="right">
+            <div class="pages">
+                <a class="logo" href="https://github.com/gautambhattcse" target=" " style="cursor: pointer" title="Visit Github">
+                  <img class ="logo" src="GitHub-Mark.png" alt="GitHub-Mark">
+                </a>
+                <a class="logo"
+                     href="https://www.linkedin.com/in/gautam-bhatt-725aa2228/"
+                     style="cursor: pointer"
+                     title="visit linkedin"
+                     target=" "
+                  ><img class="logo" src="linkedin-icon.png" alt="Linkedin-icon"
+                /></a>
+            </div>
+        </div>
+     </nav>
+      <form id="new-task-form">
+        <input
+          type="text"
+          id="new-task-input"
+          placeholder="What do you have planned?"
+        />
+        <input type="submit" id="new-task-submit" value="Add task" />
+      </form>
+    </header>
+
+    <main>
+      <section class="task-list">
+        <h2>Tasks</h2>
+        <div id="tasks">
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer">
+        <div class="footer-rights">
+          <h3>Gautam's To-do Page</h3> Copyright &#169; made by Gautam Bhatt | All rights reserved
+        </div>
+      </footer>
+    <script src="todo.js"></script>
+  </body>
+</html>
